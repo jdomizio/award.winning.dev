@@ -1,8 +1,7 @@
 import React from "react"
-import { Link } from 'gatsby';
 
 import Layout from "../components/layout"
-import Image from "../components/tuttle"
+import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -13,8 +12,7 @@ const IndexPage = () => (
       <Image />
     </div>
     <p>I just wanted to let you know that I am an award winning developer.</p>
-    <p>Now go build something refreshing.</p>
-    <p><Link to="jp">See the old news</Link></p>
+    <p>Now go build something great.</p>
   </Layout>
 )
 
